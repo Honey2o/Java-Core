@@ -1,0 +1,14 @@
+import java.util.*;
+class prog5
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("/n Enter The Value Of X");
+		int x = sc.nextInt();
+		System.out.println("/n Enter The Value of Y");
+		int y = sc.nextInt();
+		double hyp = Math.sqrt((x*x)+(y*y));
+		System.out.println("Mypotenus Of Right Angled Tringle is:"+hyp);
+	}
+}
