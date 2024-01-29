@@ -1,0 +1,17 @@
+class prog6
+{
+	void area(int l)
+	{
+		System.out.println("Area of Squre is:"+(l*l));
+	}
+	void area(int l,int b)
+	{
+		System.out.println("Area of Rectangle is:"+(l*b));
+	}
+	public static void main(String args[])
+	{
+		prog6 p1 = new prog6();
+		p1.area(5);
+		p1.area(5,6);
+	}
+}
